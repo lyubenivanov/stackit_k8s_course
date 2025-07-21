@@ -24,4 +24,20 @@ This is a course designed to teach Kubernetes concepts and practices on the STAC
 
 ## Day 2 Agenda
 
-- **TODO**: Content for Day 2 will be added later.
+1. **Exercise 01: Build and Deploy Locally**
+   - Learn how to build and run the `item-app` locally.
+
+2. **Exercise 02: Build Docker Image and Push to DockerHub**
+   - Create a Docker image for the `item-app` and push it to DockerHub.
+
+3. **Exercise 03: Deploy to Kubernetes**
+   - Deploy the `item-app` to a Kubernetes cluster using a ConfigMap for PostgreSQL credentials.
+
+4. **Exercise 04: Add Ingress Controller**
+   - Configure an Ingress resource to expose the application at a specific path.
+
+---
+
+## Homework: Extend the Item-App
+
+Refer to the [Homework: Extend the Item-App](homework/homework.md) for detailed instructions on the tasks to complete.

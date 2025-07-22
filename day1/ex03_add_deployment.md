@@ -84,7 +84,7 @@ You should see a message from the Python application.
 ## Add dns record
 
 ```bash
-stackit dns record-set create --zone <ZONE_ID> --name <UNIQUE_NAME> --type A --value <EXTERNAL_IP>
+stackit dns record-set create --zone-id <ZONE_ID> --name <UNIQUE_NAME> --type A --record <EXTERNAL_IP>
 ```
 
 

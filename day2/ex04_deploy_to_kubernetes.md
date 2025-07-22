@@ -1,4 +1,4 @@
-# Exercise 03: Deploy to Kubernetes
+# Exercise 04: Deploy to Kubernetes
 
 ## Create a ConfigMap for PostgreSQL credentials:
 

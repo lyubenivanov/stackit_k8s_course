@@ -2,7 +2,7 @@
 
 ## Build the Docker image:
 ```bash
-docker build -t <your-dockerhub-username>/item-app:latest 
+docker build -t <your-dockerhub-username>/item-app:latest .
 ```
 
 ## Push the Docker image to DockerHub:

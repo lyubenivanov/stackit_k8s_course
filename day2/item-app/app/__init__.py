@@ -1,9 +1,8 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 from flask_restx import Api
 from app.models import Item
+from app.db import db
 
-db = SQLAlchemy()
 api = Api(title="Item Management API", description="A simple Item management API", version="1.0")
 
 def create_app():

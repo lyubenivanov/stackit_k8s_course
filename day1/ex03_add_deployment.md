@@ -44,6 +44,8 @@ kubectl get pods
 
 ## Create a Service
 
+Create a new file called `hello-python-service.yaml` with the following content:
+
 ```yaml
 apiVersion: v1
 kind: Service
@@ -55,14 +57,14 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 80
+      targetPort: 5000
   type: LoadBalancer
 ```
 
 ## Create the Service
 
 ```bash
-kubectl apply -f hello-world-service.yaml
+kubectl apply -f hello-python-service.yaml
 ```
 
 ## Verify the Service

@@ -2,9 +2,22 @@
 # Exercise 01: Create a Kubernetes Cluster in Stackit
 
 ## Copy the service account key to your local machine
-```bash
-scp <path_to_sa.json> rocky@<external_ip>:/tmp/sa.json
-```
+
+1. Select the project under which you want to create a service account.
+2. Navigate to Access > Service accounts.
+3. Click Create service account.
+4. Enter a prefix for the service account identifier and click Create. 
+5. Navigate to IAM and Management > Access
+6. Click on the Grant Access button
+7. Enter the e-mail address of the service account in the Add subject field
+8. Add the Owner role in the Assign roles field
+9. Under Access > Service accounts select the service account you want to create a key for
+10. Navigate to Service Account Keys
+11. Click Create service account key
+12. Choose create new key pair: A new key pair will be created and the public key will be stored.
+13. Enter a Expiring date (optional)
+14. Click Create - Save the generated file to a /tmp/sa.json
+
 
 ## Setup service account
 
